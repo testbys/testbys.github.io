@@ -1,127 +1,77 @@
 body {
   font-family: Arial, sans-serif;
   display: flex;
-  background-image: linear-gradient(blue, red, yellow);
   justify-content: center;
-  align-items: center;
   height: 115vh;
   margin: 0;
   text-shadow: 0 0 10px black;
-}
-
-.input-check {
-  margin-left: -100%;
-  animation: 0.5 ease;
-  animation-delay: 0.5 ease;
-}
-
-h4 {
-  margin: 0;
-  padding: 0;
-  margin-left: -95%;
-  color: white;
-}
-
-.input-check:checked~h4 {
-  color: hsl(183.9,100%,62%);
-    text-shadow:
-        0 0 15px hsl(183.9,100%,62%),
-        0 0 30px hsl(183.9,100%,62%);
-}
-
-.search {
-  box-shadow: 0 0 50px black;
-  background-image: linear-gradient(blue, red, yellow);
-  border-radius: 20px;
-  padding: 50px;
-  text-align: center;
-}
-
-.input-check:checked~.search{
-  background-color: hsl(183.9,100%,62%);
-  box-shadow: 0 0 10px hsl(183.9,100%,62%);
-}
-
-h1 {
-  margin-bottom: 20px;
-  color: white;
-}
-
-.input-check:checked~h1 {
-    color: hsl(183.9,100%,62%);
-    text-shadow:
-        0 0 15px hsl(183.9,100%,62%),
-        0 0 30px hsl(183.9,100%,62%);
-}
-
-input {
-  padding: 10px;
-  margin-bottom: 10px;
-  width: calc(100% - 22px);
-  box-sizing: border-box;
-  border-radius: 20px;
   background-color: white;
 }
 
-.input-check:checked~input {
-    background-color: hsl(183.9,100%,62%);
-    box-shadow:0 0 15px hsl(183.9,100%,62%);
+.card .card1 {
+  border-color: white;
+  border: 1px solid #eeecec;
+  
+}
+
+.home {
+  font-family: Times New Roman;
+  text-align: center;
+  color: black;
+}
+
+img {
+  block-size: 100px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px white;
+  background-color: black;
+  margin-top: -75%;
+  position: relative;
+  align-items: center;
+}
+
+.card {
+  border-color: red;
+  box-shadow: 0 0 50px black;
+  text-shadow: 0 0 10px white;
+  background-color: black;
+  border-radius: 20px;
+  height: 140px;
+  padding: 50px;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+.card1 {
+  box-shadow: 0 0 50px black;
+  text-shadow: 0 0 10px white;
+  background-color: black;
+  border-radius: 20px;
+  height: 140px;
+  padding: 50px;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
 }
 
 button {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: hsl(227.9,100%,48.3%);
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 0 10px white;
 }
 
 button:hover{
-  background-color: #0056b3;
+  color: black;
+  background-color: hsl(207.4,100%,48.3%);
 }
 
-.input-check:checked~button {
-    background: hsl(183.9,100%,62%);
-    box-shadow: 0 0 10px hsl(183.9,100%,62%);
-    color: black;
-}
-
-.input-line {
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 100%;
-    height: 2.5px;
-    background: #fff;
-    transition: .5s ease;
-}
-
-.input-check:checked~.input-line {
-    background: hsl(183.9,100%,62%);
-    box-shadow: 0 0 10px hsl(183.9,100%,62%);
-}
-
-#result {
-  margin-top: 20px;
-  font-size: 1.2em;
-}
-
-h3 {
+a {
   color: white;
-  text-shadow: 0 0 10px black;
-}
-.input-check:checked~h3 {
-    color: hsl(183.9,100%,62%);
-    text-shadow: 0 0 10px hsl(183.9,100%,62%);
-    text-shadow: 0 0 10px black;
-}
-
-h2{
-  color: white;
-}
-
-.input-check:checked~h2 {
-    color: hsl(183.9,100%,62%);
-    text-shadow: 0 0 10px hsl(183.9,100%,62%);
+  text-decoration: none;
 }
